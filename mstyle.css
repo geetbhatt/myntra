@@ -113,3 +113,12 @@ nav ul li{
   .flex-wrap{
     flex-wrap: wrap;
   }
+  .homeImg{
+    width: 80vw;
+    margin: 12px 0;
+  }
+  footer{
+    padding: 23px;
+    text-align: center;
+    box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+  }
