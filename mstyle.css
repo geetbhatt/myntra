@@ -235,6 +235,7 @@ width: 10%;
     
       .rightBox{
         display: flex;
+        flex-direction: row;
         margin: 12px;
       }
     }
