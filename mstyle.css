@@ -263,9 +263,9 @@ width: 10%;
     }
     .flex{
       flex-direction: row;
-      display:
-      flex;
-      flex-wrap: nowrap;
+      display: flex;
+      flex-wrap: wrap;
+
     }
     
     .items-center{
@@ -277,7 +277,7 @@ width: 10%;
     }
     
     .space-between{
-      justify-content: space-between;
+      justify-content: space-around;
     }
     
     .uppercase{
