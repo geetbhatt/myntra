@@ -1,5 +1,14 @@
 
-
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+html {
+  display: block;
+}
 nav{
     padding: 0 150px;
 }
@@ -13,8 +22,8 @@ ul li{
 display: flex;
 }
 .flex img{
-height: 75px;
-    width: 100px;
+height: 125px;
+    width: 150px;
 }
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 html, body {
@@ -56,11 +65,13 @@ header{
 nav{
   font-size: 12px;
   padding-top: 14px;
+  flex-wrap: wrap;
 }
 
 nav ul li{
   list-style: none;
   padding: 0 12px;
+  flex-wrap: wrap;
 }
 
 .section1{
@@ -77,10 +88,18 @@ line-height: 4px;
 width: 10%;
 
 }
-
+.g{
+  padding: 0px 5px;
+}
+.Home{ 
+  white-space: nowrap;
+  display: inline-block;
+}
 .flex{
+    flex-direction: row;
     display:flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
+    padding: 0px 10px;
   }
   
   .items-center{
@@ -149,7 +168,7 @@ width: 10%;
     }
     
     .container{ 
-      padding: 0 10vw; 
+      padding: 0 5vw; 
     }
     
     .containerHeader{ 
@@ -164,6 +183,7 @@ width: 10%;
     nav ul li{
       list-style: none;
       padding: 0 12px;
+      flex-wrap: wrap;
     }
     
     .section1{
@@ -190,8 +210,8 @@ width: 10%;
     }
     
     .itemImg{
-      width: 10vw;
-      margin: 6px 12px;
+      width: 25vw;
+      margin: 10px 12px;
     }
     
     footer{
@@ -215,6 +235,7 @@ width: 10%;
     list-style: none;
     padding: 0 4px;
     font-size: 10px;
+
     }
     .containerHeader {
         padding: 0 2vw;
@@ -227,6 +248,7 @@ width: 10%;
       nav{
         flex-direction: row;
         align-items: center;
+
       }
     
       .right{ 
@@ -240,7 +262,10 @@ width: 10%;
       }
     }
     .flex{
-      display:flex;
+      flex-direction: row;
+      display:
+      flex;
+      flex-wrap: nowrap;
     }
     
     .items-center{
